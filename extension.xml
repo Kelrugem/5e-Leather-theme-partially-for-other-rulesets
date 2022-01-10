@@ -6,7 +6,7 @@
 -->
 
 <root version="3.0" release="4">
-	<announcement text="Leather and Dungeon Mix Theme for Fantasy Grounds\rCopyright 2015 Smiteworks USA, LLC." font="emotefont" icon="rulesetlogo_CoreRPG" />
+	<announcement text="Leather and Dungeon Mix Theme for Fantasy Grounds, version dated at 10 January 2022. Copyright 2022 Smiteworks USA, LLC." font="emotefont" icon="DeekinMightyBard" />
 
 	<properties>
 		<name>Theme - Leather and Dungeon Mix</name>
@@ -14,9 +14,43 @@
 		<author>SmiteWorks USA, LLC</author>
 		<description>Theme extension for CoreRPG, 3.5E, 4E and PFRPG rulesets</description>
 		<loadorder>15</loadorder>
+		<ruleset>
+			<name>CoreRPG</name>
+		</ruleset>
+		<ruleset>
+			<name>3.5E</name>
+		</ruleset>
+		<ruleset>
+			<name>4E</name>
+		</ruleset>
+		<ruleset>
+			<name>Castles and Crusades</name>
+		</ruleset>
+		<ruleset>
+			<name>CallOfCthulhu</name>
+		</ruleset>
+		<ruleset>
+			<name>CallOfCthulhu7E</name>
+		</ruleset>
+		<ruleset>
+			<name>d20 Modern</name>
+		</ruleset>
+		<ruleset>
+			<name>Fate Core</name>
+		</ruleset>
+		<ruleset>
+			<name>PFRPG</name>
+		</ruleset>
+		<ruleset>
+			<name>PFRPG2</name>
+		</ruleset>
+		<ruleset>
+			<name>13th_Age</name>
+		</ruleset>
 	</properties>
 
 	<base>
+		<icon name="DeekinMightyBard" file="DeekinMightyBard.jpg" />
 		<includefile source="graphics/graphics_fonts.xml" />
 		<includefile source="graphics/graphics_frames.xml" />
 		<includefile source="graphics/graphics_portraits.xml" />
